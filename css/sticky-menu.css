@@ -1,0 +1,112 @@
+body {
+    /*width: 100%;
+    height: 100%;
+*/
+background: #dcdcdc;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+:root {
+    --hover-color: #3d732f;
+    --background-color: #f1f1f1;
+}
+/*p, h1, h2, h3, h4 {
+    color: rgb(212, 212, 212);
+}*/
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+} 
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #FFF;
+    color: var(--hover-color);
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: var(--hover-color);
+    color: #FFF;
+}
+.welcome-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: var(--background-color);
+}
+.frequency-section {
+    /*height: 100%;*/
+    padding-top: 50px;
+    text-align: center;
+    background: var(--background-color);
+}
+.capsule-section {
+    /*height: 100%;*/
+    padding-top: 50px;
+    text-align: center;
+    background: var(--background-color);
+}
+.amplifier-section {
+    /*height: 100%;*/
+    padding-top: 50px;
+    text-align: center;
+    background: var(--background-color);
+}
+.chargepump-section {
+    /*height: 100%;*/
+    padding-top: 50px;
+    text-align: center;
+    background: var(--background-color);
+}
+.contact-section {
+    /*height: 100%;*/
+    padding-top: 150px;
+    text-align: center;
+    background: var(--background-color);
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #f1f1f1;
+	background-color: #33641d;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: rgb(235, 235, 235);
+    background-color: #548d3a;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: var(--hover-color);
+}
+.navbar-default {
+    background-color: var(--hover-color);
+    border-color: #3d732f;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #f3f3f3;
+}
+
+
+
+
+
